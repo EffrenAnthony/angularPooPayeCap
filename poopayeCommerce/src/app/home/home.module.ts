@@ -8,6 +8,7 @@ import { ProductComponent } from './components/product/product.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    MaterialModule
   ]
 })
 export class HomeModule { }

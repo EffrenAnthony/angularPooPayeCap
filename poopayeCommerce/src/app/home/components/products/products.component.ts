@@ -8,33 +8,33 @@ import { Component, OnInit } from '@angular/core';
 export class ProductsComponent implements OnInit {
   products:any[] = [
     {
-      name:'Polo',
+      name:'Mueble xyz',
       id: 0,
-      image: 'https://www.peru.projectpieta.com/wp-content/uploads/2019/12/AZUL.jpg',
+      image: 'https://gruponatic.pe/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/m/u/mueble.jpg',
       price: 25.5
     },
     {
-      name:'Polo1',
+      name:'Silla de madera',
       id: 1,
-      image: 'https://www.trenda.pe/uploads/product/pique-quantum-avengers-mujer.jpg',
+      image: 'https://mk0cehiparsytncgwt4s.kinstacdn.com/wp-content/uploads/2020/07/Silla.jpg',
       price: 25.5
     },
     {
-      name:'Polo2',
+      name:'Mueble QWERTY',
       id: 2,
-      image: 'https://yirkosivirich.com/wp-content/uploads/2020/07/POLO-ESCUDO-BLANCO_e000_a000.jpg',
+      image: 'https://www.tventas.com/6989081-large_default/cobertor-para-sofa-1-puesto-couch-cover.jpg',
       price: 25.5
     },
     {
-      name:'Polo3',
+      name:'Sillar gamer',
       id: 3,
-      image: 'https://cdn-images.farfetch-contents.com/12/42/78/14/12427814_12406199_600.jpg',
+      image: 'https://www.tuexperto.com/wp-content/uploads/2019/05/sillas-gaming-para-pc-que-tener-en-cuenta-al-comprar-una.jpg',
       price: 25.5
     },
     {
-      name:'Polo4',
+      name:'Silla de escritorio',
       id: 4,
-      image: 'https://plazavea.vteximg.com.br/arquivos/ids/508527-1000-1000/image-b18db181d94e48318d335c8942892aa7.jpg?v=637413110261500000',
+      image: 'https://tiendasbuenosaires.com.ar/images/thumbs/0000711_sillon-ejecutivo-gerencial-bajo-silla-pc-oficina-929a_600.jpeg',
       price: 25.5
     }
   ]

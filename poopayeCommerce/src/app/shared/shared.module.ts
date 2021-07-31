@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SharedRoutingModule } from './shared-routing.module';
-
+import { MaterialModule } from '../material/material.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,11 +14,14 @@ import { SharedRoutingModule } from './shared-routing.module';
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     CommonModule,
-    SharedRoutingModule
+    SharedRoutingModule,
+    MaterialModule,
+    ReactiveFormsModule
   ]
 })
 export class SharedModule { }

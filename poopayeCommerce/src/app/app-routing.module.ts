@@ -13,11 +13,20 @@ const routes: Routes = [
         pathMatch: 'full',
       },
       {
-        // path: '',
         path: 'home',
-        // en ves de cargar un componente, cargaremos un modulo
-        // component: HomeComponent
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
+      },
+      {
+        path: 'order',
+        loadChildren: () => import('./order/order.module').then(m => m.OrderModule)
+      },
+      {
+        path: 'contact',
+        loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
+      },
+      {
+        path: 'about',
+        loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
       },
       {
         path: 'libraries',

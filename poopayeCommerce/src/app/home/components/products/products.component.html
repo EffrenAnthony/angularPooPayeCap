@@ -1,9 +1,6 @@
-<p>products works!</p>
-<div *ngFor="let product of products">
-  <div>
-    <p>{{product.name}}</p>
-    <img src={{product.image}} alt={{product.name}}>
-    <p>Precio: {{product.price | currency}}</p>
-    <a mat-button [routerLink]="['/home/product', product.id]">Ver detalle</a>
+<div class="container">
+  <h1 class="text-center mt-5 mb-5">Nuestros productos</h1>
+  <div class="row">
+    <app-product *ngFor='let product of products' [product]='product' class="col-lg-4 mt-5 mb-5"></app-product>
   </div>
 </div>
