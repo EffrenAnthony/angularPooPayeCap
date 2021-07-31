@@ -21,6 +21,7 @@ export class PdfreaderComponent implements OnInit {
   ngAfterViewInit(): void {
     WebViewer({
       path: '../../../../assets/lib',
+      // path: '../../../../../node_modules/@pdftron/webviewer/public',
       initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf'
     }, this.viewRef.nativeElement).then(instance => {
 

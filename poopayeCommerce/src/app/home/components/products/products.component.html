@@ -1,0 +1,9 @@
+<p>products works!</p>
+<div *ngFor="let product of products">
+  <div>
+    <p>{{product.name}}</p>
+    <img src={{product.image}} alt={{product.name}}>
+    <p>Precio: {{product.price | currency}}</p>
+    <a mat-button [routerLink]="['/home/product', product.id]">Ver detalle</a>
+  </div>
+</div>
